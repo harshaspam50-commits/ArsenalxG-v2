@@ -1,0 +1,38 @@
+name: Daily Arsenal Data Update
+
+on:
+  schedule:
+    # This runs at 6:00 AM UTC (11:30 AM IST) every day
+    - cron: '0 6 * * *'
+  workflow_dispatch: # This adds a button so you can run it manually anytime
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # This gives the robot permission to save the updated data.json
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run update script
+      run: python update_data.py
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot"
+        git add data.json
+        # Only commit and push if data.json actually changed
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update Arsenal data" && git push)
