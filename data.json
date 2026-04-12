@@ -1068,5 +1068,15 @@
         "rolling_xG":1.93,
         "rolling_xGA":0.74,
         "rolling_difference":1.19
+    },
+    {
+        "date":"2026-04-11",
+        "opponent":"Bournemouth",
+        "season":"2025",
+        "xG":3.16346,
+        "xGA":1.39461,
+        "rolling_xG":1.96,
+        "rolling_xGA":0.85,
+        "rolling_difference":1.11
     }
 ]
