@@ -1078,5 +1078,15 @@
         "rolling_xG":1.96,
         "rolling_xGA":0.85,
         "rolling_difference":1.11
+    },
+    {
+        "date":"2026-04-19",
+        "opponent":"Manchester City",
+        "season":"2025",
+        "xG":2.28964,
+        "xGA":2.61528,
+        "rolling_xG":2.04,
+        "rolling_xGA":1.04,
+        "rolling_difference":1.0
     }
 ]
