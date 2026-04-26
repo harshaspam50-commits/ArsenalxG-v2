@@ -1088,5 +1088,15 @@
         "rolling_xG":2.04,
         "rolling_xGA":1.04,
         "rolling_difference":1.0
+    },
+    {
+        "date":"2026-04-25",
+        "opponent":"Newcastle United",
+        "season":"2025",
+        "xG":0.639189,
+        "xGA":0.868897,
+        "rolling_xG":1.75,
+        "rolling_xGA":1.11,
+        "rolling_difference":0.64
     }
 ]
