@@ -1098,5 +1098,15 @@
         "rolling_xG":1.75,
         "rolling_xGA":1.11,
         "rolling_difference":0.64
+    },
+    {
+        "date":"2026-05-02",
+        "opponent":"Fulham",
+        "season":"2025",
+        "xG":4.09079,
+        "xGA":0.696714,
+        "rolling_xG":2.04,
+        "rolling_xGA":1.14,
+        "rolling_difference":0.9
     }
 ]
