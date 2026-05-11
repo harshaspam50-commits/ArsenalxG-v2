@@ -1108,5 +1108,15 @@
         "rolling_xG":2.04,
         "rolling_xGA":1.14,
         "rolling_difference":0.9
+    },
+    {
+        "date":"2026-05-10",
+        "opponent":"West Ham",
+        "season":"2025",
+        "xG":1.42953,
+        "xGA":1.32011,
+        "rolling_xG":2.11,
+        "rolling_xGA":1.09,
+        "rolling_difference":1.02
     }
 ]
