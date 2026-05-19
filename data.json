@@ -1118,5 +1118,15 @@
         "rolling_xG":2.11,
         "rolling_xGA":1.09,
         "rolling_difference":1.02
+    },
+    {
+        "date":"2026-05-18",
+        "opponent":"Burnley",
+        "season":"2025",
+        "xG":1.22695,
+        "xGA":0.194884,
+        "rolling_xG":2.03,
+        "rolling_xGA":1.09,
+        "rolling_difference":0.94
     }
 ]
