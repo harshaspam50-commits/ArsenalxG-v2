@@ -1128,5 +1128,15 @@
         "rolling_xG":2.03,
         "rolling_xGA":1.09,
         "rolling_difference":0.94
+    },
+    {
+        "date":"2026-05-24",
+        "opponent":"Crystal Palace",
+        "season":"2025",
+        "xG":3.90645,
+        "xGA":1.00492,
+        "rolling_xG":2.09,
+        "rolling_xGA":1.15,
+        "rolling_difference":0.94
     }
 ]
